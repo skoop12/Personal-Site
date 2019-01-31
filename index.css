@@ -1,0 +1,14 @@
+h1 {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-size: 75px;
+  text-align: center;
+}
+
+body {
+  background-color: #e9ecef;
+}
+
+.jumbotron{
+  background-color: #708090;
+}
