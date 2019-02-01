@@ -1,54 +1,43 @@
 body {
-  /* background-color: #F4F4F4; */
   background-color: black;
 }
-
 nav {
   background-color: black;
 }
-
 i {
   padding-left: 50px;
   padding-right: 50px;
 }
-
+p {
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+}
 .fa-graduation-cap {
   font-size: 100px;
   text-shadow: 3px 3px #993399;
   color: white;
 }
-
 .fa-home {
   font-size: 100px;
   text-shadow: 3px 3px #993399;
   color: white;
 }
-
 .fa-desktop{
   font-size: 100px;
   text-shadow: 3px 3px #993399;
   color: white;
 }
-
 .fa-plane {
   font-size: 100px;
   text-shadow: 3px 3px #993399;
   color: white;
 }
-
-p {
-  color: white;
-  font-family: 'Work Sans', sans-serif;
-}
-
 .row {
   padding-top: 50px;
 }
-
 #top_row {
   padding-top: 125px;
 }
-
 #bottom_row {
   padding-bottom: 50px;
 }
@@ -61,16 +50,13 @@ p {
   .row {
     padding-top: 10px;
   }
-
-  #top_row {
-    padding-top: 75px;
-  }
-
-  #bottom_row {
-    padding-bottom: 25px;
-  }
   .icon{
     text-align: center;
   }
-
+  #top_row {
+    padding-top: 75px;
+  }
+  #bottom_row {
+    padding-bottom: 25px;
+  }
 }
