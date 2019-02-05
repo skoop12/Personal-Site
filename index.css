@@ -85,6 +85,9 @@ a:hover {
   float: left;
   text-align: center;
 }
+.fa-file-alt {
+  display: none;
+}
 
 @media (max-width: 770px) {
   h1 {
@@ -134,6 +137,26 @@ a:hover {
   }
   #pages {
     text-align: center;
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  #git {
+    height: 450px;
+  }
+  .fa-file-alt {
+    display: block;
+    font-size: 100px;
+    text-shadow: 3px 3px #993399;
+    text-align: center;
+    height: 400px;
+  }
+  #res {
+    display: none;
+  }
+  #contact-icons {
+    height: 550px;
   }
 }
 
