@@ -18,6 +18,8 @@ h3 {
 i {
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 30px;
+  margin-top: 30px;
 }
 object {
   width: 100%;
@@ -78,6 +80,16 @@ a:hover {
   font-size: 200px;
   text-shadow: 3px 3px #993399;
 }
+.fa-sun{
+  color: white;
+  font-size: 200px;
+  text-shadow: 3px 3px #993399;
+}
+.fa-chart-line{
+  color: white;
+  font-size: 200px;
+  text-shadow: 3px 3px #993399;
+}
 .proj_col {
   text-align: center;
 }
@@ -94,9 +106,6 @@ a:hover {
     font-size: 3.5em;
     text-align: center;
     padding-left: 0px;
-  }
-  h3 {
-    padding-top:
   }
   object {
     width: 400px;
@@ -124,6 +133,18 @@ a:hover {
     font-size: 100px;
     text-shadow: 3px 3px #993399;
   }
+  .fa-sun {
+    color: white;
+    font-size: 60px;
+    text-shadow: 3px 3px #993399;
+    padding-top: 75px;
+  }
+  .fa-chart-line {
+    color: white;
+    font-size: 60px;
+    text-shadow: 3px 3px #993399;
+    padding-top: 75px;
+  }
   .fa-utensils {
     color: white;
     font-size: 60px;
@@ -141,9 +162,21 @@ a:hover {
   }
 }
 
-@media (max-width: 576px) {
-  #git {
-    height: 450px;
+@media (max-width: 575px) {
+  .fa-utensils {
+    padding-top: 0px;
+  }
+  .fa-sun {
+    padding-top: 0px;
+  }
+  .fa-chart-line {
+    padding-top: 0px;
+  }
+  .fa-github-square {
+    padding-top: 0px;
+  }
+  .col-sm-6 {
+    height: 50px;
   }
   .fa-file-alt {
     display: block;
@@ -157,16 +190,5 @@ a:hover {
   }
   #contact-icons {
     height: 550px;
-  }
-}
-
-@media (max-width: 500px) {
-  object {
-    width: 350px;
-    height: 550px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 100px;
-    padding-bottom: 100px;
   }
 }
